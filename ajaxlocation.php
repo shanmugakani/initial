@@ -6,7 +6,7 @@ $value = strtoupper(trim($_POST['value']));
 // Ensure there is a value to search for
 if (!isset($value) || $value == '')exit;
 // Get list of random words
-$words = explode(',', file_get_contents('location.txt'));
+$words = explode(',', file_get_contents('location2.txt'));
 
 // Set up the send back array
 $found = array();
